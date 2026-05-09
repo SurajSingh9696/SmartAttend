@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   title: 'SmartAttend — Automated Attendance System',
   description: 'AI-powered, multi-layer fraud-resistant attendance platform for universities',
   keywords: 'attendance, smart attendance, university, automated, fraud detection',
+  icons: {
+    icon: '/logo.jpg',
+    shortcut: '/logo.jpg',
+    apple: '/logo.jpg',
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

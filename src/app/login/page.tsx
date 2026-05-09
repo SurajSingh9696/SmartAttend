@@ -42,7 +42,7 @@ export default function LoginPage() {
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             margin: '0 auto 1rem',
           }}>
-            <img src="/logo.png" alt="SmartAttend Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+            <img src="/logo.jpg" alt="SmartAttend Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
           </div>
           <h1 style={{ fontSize: '1.6rem', fontWeight: 800 }}>Welcome Back</h1>
           <p style={{ fontSize: '0.875rem', marginTop: '0.25rem', color: 'var(--text-muted)' }}>

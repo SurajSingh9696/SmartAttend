@@ -32,7 +32,7 @@ export default async function LandingPage() {
         <div className="landing-nav-inner">
           <div className="nav-brand">
             <div className="logo-icon" style={{ background: 'transparent', padding: 0 }}>
-              <img src="/logo.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+              <img src="/logo.jpg" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
             </div>
             <span className="logo-text">SmartAttend</span>
           </div>
@@ -385,7 +385,7 @@ export default async function LandingPage() {
             <div className="footer-brand">
               <div className="nav-brand" style={{ marginBottom: "0.75rem" }}>
                 <div className="logo-icon logo-icon-sm" style={{ background: 'transparent', padding: 0 }}>
-                  <img src="/logo.png" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
+                  <img src="/logo.jpg" alt="Logo" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />
                 </div>
                 <span className="logo-text" style={{ fontSize: "1rem" }}>SmartAttend</span>
               </div>
