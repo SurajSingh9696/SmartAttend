@@ -43,6 +43,11 @@ export default function Sidebar({ role, userName }: SidebarProps) {
   const roleLabel = role === 'superadmin' ? 'Superadmin' : role === 'admin' ? 'College' : role === 'teacher' ? 'Teacher' : 'Student';
   let lastSection = '';
 
+  const handleSignOut = async () => {
+    await signOut({ redirect: false });
+    window.location.replace('/');
+  };
+
   return (
     <aside className="sidebar">
       <div className="sidebar-logo">
@@ -91,7 +96,7 @@ export default function Sidebar({ role, userName }: SidebarProps) {
           id="sidebar-signout-btn"
           className="nav-item"
           style={{ flex: 1, border: 'none', background: 'none', cursor: 'pointer', color: 'var(--rose)' }}
-          onClick={() => signOut({ callbackUrl: `${window.location.origin}/` })}
+          onClick={handleSignOut}
         >
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" /></svg>
           Sign Out
